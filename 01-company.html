@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>일진그룹 기업 분석 | 면접 준비</title>
+  <link rel="stylesheet" href="common.css"/>
+</head>
+<body>
+<div class="wrap">
+  <div class="top-bar">
+    <a class="back" href="index.html">&larr; 목차로</a>
+    <div class="tts-bar">
+      <button class="tts-btn" id="playAll" onclick="TTS.speakAll(['overview','affiliates','biz','news','itrole'],this)">&#9654; 전체 음성 재생</button>
+      <button class="tts-btn stop" onclick="TTS.stop(document.getElementById('playAll'))">&#9632; 정지</button>
+    </div>
+  </div>
+  <h1>일진그룹 기업 분석</h1>
+  <div class="subtitle">면접 전 반드시 숙지해야 할 기업 정보</div>
+
+  <!-- 그룹 개요 -->
+  <section class="card" id="overview">
+    <h2>1. 그룹 개요</h2>
+    <div class="meta">
+      <span class="pill accent">대기업집단</span>
+      <span class="pill good">자산 5.2조</span>
+      <span class="pill warn">계열사 38개</span>
+    </div>
+    <div class="kpi-grid">
+      <div class="kpi"><div class="label">그룹 연 매출</div><div class="value">약 3조 8천억 원 (2024)</div></div>
+      <div class="kpi"><div class="label">임직원 수</div><div class="value">약 6,486명</div></div>
+      <div class="kpi"><div class="label">총수</div><div class="value">허진규 회장</div></div>
+      <div class="kpi"><div class="label">부채비율</div><div class="value">약 38.8% (양호)</div></div>
+    </div>
+    <div class="content" style="margin-top:12px">
+      <p><b>일진글로벌홀딩스</b>는 2019년 설립된 <b>비상장 순수 지주회사</b>로, 허진규 회장 직속의 그룹 컨트롤타워 역할을 합니다.</p>
+      <ul>
+        <li>그룹 전략 기획 및 경영 총괄 (사업 방향 수립, 포트폴리오 관리)</li>
+        <li>계열사 지분 관리 및 투자 의사결정</li>
+        <li>재무/법무/HR/IT 등 그룹 공통 기능(Shared Service) 제공</li>
+        <li>신사업 발굴 및 M&A 검토</li>
+      </ul>
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('overview').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <!-- 계열사 -->
+  <section class="card" id="affiliates">
+    <h2>2. 주요 계열사 현황</h2>
+    <table>
+      <thead><tr><th>계열사</th><th>주요 사업</th><th>비고</th></tr></thead>
+      <tbody>
+        <tr><td><b>일진전기</b></td><td>초고압 변압기, 차단기, 전선</td><td>상장, 매출 2조+ (핵심)</td></tr>
+        <tr><td><b>일진하이솔루스</b></td><td>수소연료탱크(Type4)</td><td>상장, 현대차 넥쏘 독점</td></tr>
+        <tr><td><b>일진다이아몬드</b></td><td>공업용 합성 다이아몬드</td><td>그룹 창업 원조 사업</td></tr>
+        <tr><td><b>일진홀딩스</b></td><td>상장 지주사</td><td>허정석 부회장 주도</td></tr>
+        <tr><td><b>일진에스앤티</b></td><td>바이오/의약품</td><td>신성장 분야</td></tr>
+        <tr><td><b>일진글로벌홀딩스</b></td><td>비상장 지주사</td><td>허진규 회장 직속</td></tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <b>면접 포인트:</b> 일진머티리얼즈(동박)는 2023년 롯데케미칼에 약 2.7조에 매각 완료. 현재 "전기/수소/바이오" 3대 축으로 포트폴리오 재편 중.
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('affiliates').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <!-- 주요 사업 -->
+  <section class="card" id="biz">
+    <h2>3. 주요 사업 분야</h2>
+    <div class="content">
+      <h3>&#9889; 전기/전력 (핵심 주력)</h3>
+      <ul>
+        <li>일진전기: 765kV 초고압 변압기, 80여 개국 수출</li>
+        <li>AI 데이터센터/전력망 확대로 급성장 (전력 슈퍼사이클)</li>
+        <li>2025년 매출 2조 446억, 영업이익 1,512억 (역대 최대)</li>
+      </ul>
+      <h3>&#128171; 수소 사업</h3>
+      <ul>
+        <li>일진하이솔루스: 국내 유일 Type4 수소탱크 양산</li>
+        <li>전 세계 양산 가능 기업: 일진하이솔루스 + 토요타 단 2곳</li>
+        <li>현대차 넥쏘 독점, BMW/현대 북미 트럭 공급</li>
+      </ul>
+      <h3>&#128142; 다이아몬드 공업</h3>
+      <ul>
+        <li>일진다이아몬드: 반도체/자동차/기계용 합성 다이아몬드</li>
+        <li>그룹 창업의 근간이 되는 원조 사업</li>
+      </ul>
+      <h3>&#129514; 바이오/신사업</h3>
+      <ul>
+        <li>일진에스앤티: 표적 단백질 분해 기술 기반 항암제 개발</li>
+      </ul>
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('biz').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <!-- 최근 이슈 -->
+  <section class="card" id="news">
+    <h2>4. 최근 주요 이슈 (2024~2026)</h2>
+    <table>
+      <thead><tr><th>시기</th><th>이슈</th></tr></thead>
+      <tbody>
+        <tr><td>2023</td><td>일진머티리얼즈 롯데에 2.7조 매각 &rarr; 그룹 슬림화/미래 재투자</td></tr>
+        <tr><td>2024.6</td><td>이동섭 부회장 &rarr; 회장 승진 (2세 경영 본격화)</td></tr>
+        <tr><td>2024~25</td><td>일진전기, AI 데이터센터 변압기 수요 폭증으로 사상 최대 실적</td></tr>
+        <tr><td>2025</td><td>허정석 부회장, 일진홀딩스 중심 독자 체제 구축/계열 분리</td></tr>
+        <tr><td>2026</td><td>허진규 회장 "초격차 기술로 세계 시장 선점" / AI/차세대 전력망 집중</td></tr>
+      </tbody>
+    </table>
+    <div class="callout orange">
+      <b>핵심 트렌드:</b> 머티리얼즈 매각 후 '전기(전력)/수소/바이오' 3대 축으로 포트폴리오 재편. AI 전력 슈퍼사이클 최대 수혜 기업으로 부상.
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('news').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <!-- IT기획팀 역할 -->
+  <section class="card" id="itrole">
+    <h2>5. IT기획팀 역할 (지주사 관점)</h2>
+    <div class="callout green">
+      <b>핵심 인식:</b> "지주사 IT기획은 단순 운영이 아닌, 그룹 전체의 IT 방향을 설계하고 계열사를 조율하는 역할"
+    </div>
+    <table>
+      <thead><tr><th>영역</th><th>세부 내용</th></tr></thead>
+      <tbody>
+        <tr><td><b>IT 전략 수립</b></td><td>중장기 IT 로드맵 및 DX 전략, 연도별 실행 계획</td></tr>
+        <tr><td><b>IT 거버넌스</b></td><td>계열사 간 투자 우선순위/표준/정책 관리, 중복 투자 방지</td></tr>
+        <tr><td><b>핵심 시스템</b></td><td>그룹 통합 ERP 운영/유지보수, 계열사 도입 지원</td></tr>
+        <tr><td><b>PMO</b></td><td>신규 시스템 도입 타당성 검토, 벤더 선정/계약 관리</td></tr>
+        <tr><td><b>보안/컴플라이언스</b></td><td>그룹 정보보안 정책, 개인정보보호, 망분리 등 법규 대응</td></tr>
+        <tr><td><b>디지털 신기술</b></td><td>AI, 클라우드, RPA 그룹 적용 검토 및 파일럿</td></tr>
+        <tr><td><b>IT 예산</b></td><td>그룹 IT 투자 예산 편성/집행/결산</td></tr>
+      </tbody>
+    </table>
+    <div class="callout">
+      <b>면접 연결:</b> 회장님이 2026년 경영방침으로 AI/차세대 전력망을 언급 &rarr; AI 활용 전략 및 그룹 DX 추진이 IT기획팀의 핵심 아젠다. 내 ERP/MES/SCM 기획 경험 + AI/RPA 과제 발굴 경험이 직결.
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('itrole').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <footer><a href="index.html">&larr; 목차</a> | 일진그룹 기업 분석</footer>
+</div>
+<script src="tts.js"></script>
+</body>
+</html>

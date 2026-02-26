@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>JD 기반 예상질문 | 면접 준비</title>
+  <link rel="stylesheet" href="common.css"/>
+</head>
+<body>
+<div class="wrap">
+  <div class="top-bar">
+    <a class="back" href="index.html">&larr; 목차로</a>
+    <div class="tts-bar">
+      <button class="tts-btn" id="playAll" onclick="TTS.speakAll(['core','q1','q2','q3','q4','q5','q6'],this)">&#9654; 전체 음성 재생</button>
+      <button class="tts-btn stop" onclick="TTS.stop(document.getElementById('playAll'))">&#9632; 정지</button>
+    </div>
+  </div>
+  <h1>JD 기반 예상질문 & 답변 프레임</h1>
+  <div class="subtitle">일진글로벌홀딩스 IT기획 (전략/PMO/투자심의/거버넌스/외주관리)</div>
+
+  <section class="card" id="core">
+    <h2>20초 핵심 메시지</h2>
+    <div class="callout">
+      <b>"제조기업 전사 시스템(ERP/MES/SCM) 기반으로 표준화/투자 타당성/거버넌스를 설계하고, 벤더/프로젝트를 통제하는 IT기획/PMO입니다."</b>
+    </div>
+    <div class="hr"></div>
+    <h2>답변 공통 템플릿 (STAR + 판단)</h2>
+    <div class="content">
+      <ul>
+        <li><b>S</b> 상황: 무엇이 문제였나 (비용/품질/납기/리스크)</li>
+        <li><b>T</b> 과제: 목표/KPI는 무엇이었나</li>
+        <li><b>A</b> 행동: AS-IS &rarr; TO-BE / 대안비교 / WBS / 변경관리 / 검수</li>
+        <li><b>R</b> 결과: 정량(%) + 정성(정착/만족도/통제)</li>
+        <li><b>판단 한 줄</b>: "그래서 다음엔 무엇을 더 잘한다"</li>
+      </ul>
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('core').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card" id="q1">
+    <details open>
+      <summary>IT 전략 / 중장기 로드맵 <span class="tag">JD 1번</span></summary>
+      <div class="inner">
+        <div class="content">
+          <h3>예상 질문</h3>
+          <ul>
+            <li>중장기 IT 추진전략을 어떤 방식으로 수립하나요?</li>
+            <li>업무 간소화 과제의 우선순위를 어떻게 정하나요?</li>
+            <li>계열사/전사 표준화가 필요한 이유와 접근 방식은?</li>
+            <li>DX/AI 과제를 "유행"이 아닌 "성과"로 만드는 조건은?</li>
+          </ul>
+          <div class="callout">
+            <b>핵심 답변 포인트:</b><br>
+            AS-IS 진단(중복/단절/수기) &rarr; To-Be 원칙(표준/자동화/데이터) &rarr; 1~3단계 로드맵 &rarr; KPI(시간/오류/리드타임/가시성) &rarr; 거버넌스(변경관리/위원회)
+          </div>
+          <div class="callout green">
+            <b>내 경험 연결:</b> 제일엠앤에스에서 ERP 신규 구축 시 AS-IS 진단부터 시작. 프로세스별 pain point 매핑 후 우선순위 선정. BOM/MRP 표준화를 1단계로 잡고, ERP 구축/내부통제를 2단계, AI/RPA 고도화를 3단계로 로드맵 수립.
+          </div>
+        </div>
+      </div>
+    </details>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('q1').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card" id="q2">
+    <details>
+      <summary>IT 투자 심의 / 타당성(ROI) / 성과관리 <span class="tag">JD 2번</span></summary>
+      <div class="inner">
+        <div class="content">
+          <h3>예상 질문</h3>
+          <ul>
+            <li>IT 투자 적정성은 어떤 기준으로 검토하나요?</li>
+            <li>정량 ROI가 어려운 과제는 어떻게 설득하나요?</li>
+            <li>투자 집행 후 성과관리/사후평가는 어떻게 하나요?</li>
+            <li>"지금은 하지 말아야 할 투자"를 어떻게 판단하나요?</li>
+          </ul>
+          <div class="callout">
+            <b>프레임:</b> 목적(Why) &rarr; 대안(Options) &rarr; 비용(Capex/Opex) &rarr; 효과(정량/정성) &rarr; 리스크(보안/운영/벤더락인) &rarr; 의사결정(Go/No-Go) &rarr; 사후평가(KPI)
+          </div>
+          <div class="callout green">
+            <b>내 경험 연결:</b> 정부지원사업 2억+ 확보 시 투자 대비 효과 분석서 작성. ERP 신규 구축 vs 고도화 비교 분석 후 경영진에 보고. 투자 후 KPI(재고정확도, 처리속도, 오류율) 추적으로 성과 가시화.
+          </div>
+        </div>
+      </div>
+    </details>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('q2').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card" id="q3">
+    <details>
+      <summary>PMO / 변화관리 (일정/리스크/커뮤니케이션) <span class="tag">JD 2번</span></summary>
+      <div class="inner">
+        <div class="content">
+          <h3>예상 질문</h3>
+          <ul>
+            <li>프로젝트가 지연될 때 무엇부터 손보나요?</li>
+            <li>현업 요구가 계속 바뀌면 어떻게 통제하나요?</li>
+            <li>이슈/리스크를 경영진에 어떤 형식으로 보고하나요?</li>
+            <li>사용자 저항(변화관리)을 어떻게 해결했나요?</li>
+          </ul>
+          <div class="callout">
+            <b>핵심:</b> WBS/마일스톤 + 변경관리(범위/비용/일정) + 검수 기준 + 교육/매뉴얼 + 정착 KPI
+          </div>
+          <div class="callout green">
+            <b>내 경험 연결:</b> 오토스윙 3개 시스템 통합 시 현업 저항이 가장 큰 이슈. 부서별 키유저 선발 &rarr; 주간 회의 &rarr; 교육/매뉴얼 제작 &rarr; 변경요청서 양식화로 범위 통제. 결과: 3개 시스템 안정화 달성.
+          </div>
+        </div>
+      </div>
+    </details>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('q3').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card" id="q4">
+    <details>
+      <summary>외주 / ITO 계약 / 벤더 관리 <span class="tag">JD 3번</span></summary>
+      <div class="inner">
+        <div class="content">
+          <h3>예상 질문</h3>
+          <ul>
+            <li>벤더 선정 시 평가 기준은 무엇인가요?</li>
+            <li>ITO 계약에서 꼭 넣어야 할 조항은?</li>
+            <li>비용을 줄이면서 품질을 유지한 경험이 있나요?</li>
+            <li>벤더가 "안 된다"고 할 때 어떻게 풀어가나요?</li>
+          </ul>
+          <div class="callout">
+            <b>체크 포인트:</b> RFP 명확화(범위/산출물) / SLA/패널티 / 변경요청 단가표 / 소스/문서 소유권 / 검수 기준 / 운영 인수인계
+          </div>
+          <div class="callout green">
+            <b>내 경험 연결:</b> 더존에서 공급사 PM으로 다수 프로젝트 수행 &rarr; "고객사 입장"과 "공급사 입장" 모두 경험. 제일엠앤에스에서는 발주자로서 RFP 작성, 벤더 평가, 검수 기준 설계 수행. 양쪽 경험이 강점.
+          </div>
+        </div>
+      </div>
+    </details>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('q4').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card" id="q5">
+    <details>
+      <summary>거버넌스 / 표준화 / 경영보고 <span class="tag">JD 4번</span></summary>
+      <div class="inner">
+        <div class="content">
+          <h3>예상 질문</h3>
+          <ul>
+            <li>전사 표준화 정책을 무엇부터 만들겠습니까?</li>
+            <li>경영진이 원하는 보고는 무엇이며 어떻게 구성합니까?</li>
+            <li>계열사 간 시스템/데이터 표준을 어떻게 맞추나요?</li>
+            <li>IT 의사결정 체계를 어떻게 설계하겠습니까?</li>
+          </ul>
+          <div class="callout">
+            <b>추천 보고 체계:</b> (월간) 포트폴리오 현황(예산/일정/리스크) + (분기) 로드맵/KPI + (이슈 발생 시) 의사결정안(대안/비용/리스크)
+          </div>
+          <div class="callout green">
+            <b>내 경험 연결:</b> 제일엠앤에스에서 IT 정책/표준 문서 수립 경험. 기준정보(BOM/마스터) 표준화부터 시작 &rarr; 프로세스 표준 &rarr; 보안 정책 순서로 접근. 일진그룹은 38개 계열사이므로 "공통 기준 수립 + 계열사 특성 반영" 투트랙 접근 제안.
+          </div>
+        </div>
+      </div>
+    </details>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('q5').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card" id="q6">
+    <details>
+      <summary>정보보호 / 개인정보 / ITGC <span class="tag">우대</span></summary>
+      <div class="inner">
+        <div class="content">
+          <h3>예상 질문</h3>
+          <ul>
+            <li>ITGC/내부통제 대응 경험을 설명해 주세요.</li>
+            <li>권한/접근통제/로그 관리는 어떻게 설계하나요?</li>
+            <li>개인정보/보안 이슈가 발생하면 어떤 프로세스로 대응하나요?</li>
+            <li>문서중앙화/DLP 도입 시 핵심 고려사항은?</li>
+          </ul>
+          <div class="callout">
+            <b>포인트:</b> 권한(최소권한) / 변경이력 / 감사로그 / 접근통제 / 정기점검(리뷰) / 교육/정책 준수
+          </div>
+          <div class="callout green">
+            <b>내 경험 연결:</b> 제일엠앤에스 IPO 준비 과정에서 ITGC 대응 체계 직접 설계. ERP 권한 매트릭스 정비, 전자결재 기반 내부회계 프로세스 구축, 문서중앙화/DLP로 보안 강화. 오토스에서도 DLP 신규 도입 + 전사 보안 교육 수행.
+          </div>
+        </div>
+      </div>
+    </details>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('q6').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <footer><a href="index.html">&larr; 목차</a> | <a href="05-interview-qa.html">다음: 22개 공통 예상질문 &rarr;</a></footer>
+</div>
+<script src="tts.js"></script>
+</body>
+</html>

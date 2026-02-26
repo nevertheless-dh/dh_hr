@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>이력서 핵심 요약 | 면접 준비</title>
+  <link rel="stylesheet" href="common.css"/>
+</head>
+<body>
+<div class="wrap">
+  <div class="top-bar">
+    <a class="back" href="index.html">&larr; 목차로</a>
+    <div class="tts-bar">
+      <button class="tts-btn" id="playAll" onclick="TTS.speakAll(['profile','highlight','jeilmns','autoswing','douzone'],this)">&#9654; 전체 음성 재생</button>
+      <button class="tts-btn stop" onclick="TTS.stop(document.getElementById('playAll'))">&#9632; 정지</button>
+    </div>
+  </div>
+  <h1>이력서 핵심 요약</h1>
+  <div class="subtitle">최동혁 | 총 경력 14년 2개월 | IT기획/PMO</div>
+
+  <section class="card" id="profile">
+    <h2>프로필</h2>
+    <div class="meta">
+      <span class="pill accent">14년 2개월</span>
+      <span class="pill good">제조 IT/PMO</span>
+      <span class="pill warn">거버넌스/ITGC</span>
+    </div>
+    <div class="kpi-grid">
+      <div class="kpi"><div class="label">성명</div><div class="value">최동혁 (1988.03, 만 37세)</div></div>
+      <div class="kpi"><div class="label">학력</div><div class="value">안양대 정보통신공학 (학사)</div></div>
+      <div class="kpi"><div class="label">현재</div><div class="value">책임(과장) / 기본급 5,600만</div></div>
+      <div class="kpi"><div class="label">거주</div><div class="value">서울 광진구 자양동</div></div>
+    </div>
+  </section>
+
+  <section class="card" id="highlight">
+    <h2>핵심역량 요약 (면접 어필 포인트)</h2>
+    <div class="content">
+      <ul>
+        <li><b>제조/물류/유통</b> 중심 전사 시스템(ERP/MES/WMS/SCM/그룹웨어) 기획/구축/운영</li>
+        <li><b>PMO</b>: WBS/예산/일정/리스크/변경관리/검수/정착 End-to-End 수행</li>
+        <li><b>표준화</b>: BOM/MRP 기준정보 재정립, 프로세스 표준화, 데이터 정합성 확보</li>
+        <li><b>DX/자동화</b>: AI/RPA/No-code(Teams/n8n) 연계 업무혁신 과제 발굴 &rarr; 효율성 30%+</li>
+        <li><b>거버넌스/보안</b>: ITGC/내부통제, 문서중앙화/DLP 구축, 보안정책 수립</li>
+        <li><b>정부지원사업</b>: 스마트팩토리/클라우드 보급 기획~집행 &rarr; 2년간 <b>2억+ 확보</b></li>
+        <li><b>IT 투자/외주</b>: RFP 작성, 벤더 제안 평가, ITO 계약 조건 검토, 비용 최적화</li>
+      </ul>
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('highlight').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card" id="jeilmns">
+    <h2>제일엠앤에스 (2023.05 ~ 현재, 2년 9개월)</h2>
+    <div class="meta">
+      <span class="pill">매출 1,600억 / 300명</span>
+      <span class="pill accent">2차전지 장비</span>
+    </div>
+    <div class="content">
+      <p><b>주요 고객:</b> 삼성SDI, LG에너지솔루션, Northvolt, 한화</p>
+      <ul>
+        <li>전사 IT 인프라/시스템 안정화 기획 및 정책 수립</li>
+        <li>IPO 준비: <b>ERP 신규 구축</b>, 데이터 표준화, 운영 체계 정립</li>
+        <li><b>정부지원사업</b> 기획/신청/집행 주도 &rarr; 2년간 2억+ 확보</li>
+        <li>보안 정책 수립 및 <b>ITGC 대응</b> (내부회계 대응 포함)</li>
+        <li>AI/RPA 기반 견적 자동화 과제 기획, SaaS 솔루션 도입</li>
+        <li>문서중앙화 시스템 기획/구축 (데이터 보안/접근 관리)</li>
+      </ul>
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('jeilmns').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card" id="autoswing">
+    <h2>오토스윙 (2019.09 ~ 2021.11, 2년 3개월)</h2>
+    <div class="meta">
+      <span class="pill">매출 300억 / 100명</span>
+      <span class="pill accent">용접보안면/보안경</span>
+    </div>
+    <div class="content">
+      <ul>
+        <li>영업 대리점 <b>OMS 웹시스템 신규 구축</b> (ERP/MES 연동) &rarr; 주문 오류 <b>20% 감소</b>, 처리속도 <b>50% 향상</b></li>
+        <li>국내외 발주처 <b>SCM 시스템 구축</b>, S&OP 프로세스 수립 &rarr; 발주 정확도 <b>35% 향상</b></li>
+        <li>ERP/MES 연계 <b>WMS 구축</b> (Location/LOT 관리) &rarr; 재고 조회 정확도 <b>95%</b></li>
+        <li>자재마스터/BOM 재정립, 기준정보 표준화</li>
+        <li>3개 시스템(관리ERP, 영업ERP, MES) 데이터/마스터 연동 안정화</li>
+        <li><b>DLP</b> 보안솔루션 도입, 전사 보안 교육, 표준 매뉴얼 작성</li>
+      </ul>
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('autoswing').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card" id="douzone">
+    <h2>더존비즈온 DBP 다우아이티 (2010.06 ~ 2019.07, 9년 2개월)</h2>
+    <div class="meta">
+      <span class="pill">매출 3,000억 / 1,700명</span>
+      <span class="pill accent">ERP/그룹웨어</span>
+    </div>
+    <div class="content">
+      <ul>
+        <li>ERP(회계/인사/영업/구매/생산/원가 전체 모듈) 구축 및 컨설팅</li>
+        <li>그룹웨어/보안솔루션(DRM/DLP/문서중앙화) 영업지원 및 교육</li>
+        <li>정부지원사업 공급사 PM (스마트공장, 대중소상생지원)</li>
+        <li>고객사 대상 집체교육 세미나 운영 (3개월 간격)</li>
+        <li>다수 중소/중견 제조기업 ERP/그룹웨어 구축</li>
+        <li><b>2017 상반기 개인 최우수상, 2018 상반기 개인 대상</b></li>
+      </ul>
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('douzone').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <footer><a href="index.html">&larr; 목차</a> | <a href="03-intro.html">다음: 3분 자기소개 &rarr;</a></footer>
+</div>
+<script src="tts.js"></script>
+</body>
+</html>

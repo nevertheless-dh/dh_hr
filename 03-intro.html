@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>3분 자기소개 | 면접 준비</title>
+  <link rel="stylesheet" href="common.css"/>
+</head>
+<body>
+<div class="wrap">
+  <div class="top-bar">
+    <a class="back" href="index.html">&larr; 목차로</a>
+    <div class="tts-bar">
+      <button class="tts-btn" id="playAll" onclick="TTS.speakAll(['speech'],this)">&#9654; 자기소개 전체 재생</button>
+      <button class="tts-btn stop" onclick="TTS.stop(document.getElementById('playAll'))">&#9632; 정지</button>
+    </div>
+  </div>
+  <h1>3분 자기소개 스크립트</h1>
+  <div class="subtitle">일진글로벌홀딩스 IT기획 | 최동혁</div>
+
+  <section class="card">
+    <div class="meta">
+      <span class="pill accent">약 3분</span>
+      <span class="pill good">결론 먼저</span>
+      <span class="pill warn">STAR 구조</span>
+    </div>
+    <div class="callout">
+      <b>TIP:</b> 음성 재생 버튼으로 반복 청취하며 연습하세요. 속도/억양에 익숙해지면 자연스러워집니다.
+    </div>
+  </section>
+
+  <section class="card" id="speech">
+    <h2>자기소개 전문</h2>
+    <div class="content" style="font-size:15px;line-height:1.85">
+      <p>안녕하십니까.<br>
+      제조기업 중심으로 ERP, MES, SCM 등 전사 시스템을 기획하고 구축하며<br>
+      10년 이상 IT 전략과 운영을 함께 수행해온 최동혁입니다.</p>
+
+      <div class="hr"></div>
+
+      <p>고등학교 시절 더존에서 자료정리 아르바이트로 IT를 접한 이후,<br>
+      야간대학을 병행하며 ERP 실무부터 컨설팅, 구축, 교육까지 경험하며<br>
+      "시스템이 조직을 어떻게 바꾸는가"를 현장에서 배워왔습니다.</p>
+
+      <p>더존비즈온에서 9년간 다양한 제조기업 ERP 구축을 수행하며<br>
+      회계, 생산, 원가, 물류 전 모듈을 이해했고,<br>
+      오토스에서는 삼성전자 스마트팩토리 지원사업을 통해<br>
+      ERP, MES, SCM 통합 체계를 구축하여<br>
+      재고 정확도 90% 이상, 주문 오류 20% 감소라는<br>
+      정량적 성과를 만들었습니다.</p>
+
+      <p>현재 제일엠앤에스에서는 IPO 준비 과정에서<br>
+      ERP 신규 구축과 데이터 표준화, 내부통제 체계 정비,<br>
+      문서중앙화와 그룹웨어 도입을 직접 기획하며<br>
+      IT 거버넌스 기반을 수립했습니다.<br>
+      또한 AI와 RPA 기반 자동화 과제를 발굴해<br>
+      업무 처리 시간을 단축하는 개선을 진행해왔습니다.</p>
+
+      <div class="hr"></div>
+
+      <div class="callout">
+        <p><b>제가 IT를 바라보는 기준은 세 가지입니다.</b><br>
+        첫째, 시스템은 반드시 전사 프로세스 목적과 정렬되어야 한다는 것.<br>
+        둘째, 투자 대비 효과를 수치로 검증할 수 있어야 한다는 것.<br>
+        셋째, 현업과 개발, 경영진의 이해관계를 조율하는 것이 IT기획자의 핵심 역할이라는 것입니다.</p>
+      </div>
+
+      <div class="hr"></div>
+
+      <p>저는 단순 운영자가 아니라<br>
+      전사 프로세스를 연결하고, 투자 타당성을 판단하며,<br>
+      지속 가능한 IT 체계를 설계하는 기획자로서<br>
+      일진그룹의 IT 전략과 표준화 체계 수립에 기여하고 싶습니다.</p>
+
+      <p>감사합니다.</p>
+    </div>
+    <div class="tts-bar">
+      <button class="tts-btn" onclick="TTS.toggle(document.getElementById('speech').innerText,this)">&#9654; 음성 재생</button>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>자기소개 구조 분석</h2>
+    <div class="content">
+      <table>
+        <thead><tr><th>파트</th><th>내용</th><th>시간</th></tr></thead>
+        <tbody>
+          <tr><td><b>도입</b></td><td>한 줄 요약 (누구인가)</td><td>15초</td></tr>
+          <tr><td><b>성장 배경</b></td><td>IT와의 인연, 학습 과정</td><td>20초</td></tr>
+          <tr><td><b>경력 1</b></td><td>더존 9년 - ERP 전 모듈 이해</td><td>25초</td></tr>
+          <tr><td><b>경력 2</b></td><td>오토스 - 통합 구축 + 정량 성과</td><td>30초</td></tr>
+          <tr><td><b>경력 3</b></td><td>제일엠앤에스 - IPO/거버넌스/AI</td><td>30초</td></tr>
+          <tr><td><b>가치관</b></td><td>IT 3가지 기준 (차별화 포인트)</td><td>25초</td></tr>
+          <tr><td><b>마무리</b></td><td>지원 동기 + 포부</td><td>15초</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer><a href="index.html">&larr; 목차</a> | <a href="04-questions.html">다음: JD 기반 예상질문 &rarr;</a></footer>
+</div>
+<script src="tts.js"></script>
+</body>
+</html>
